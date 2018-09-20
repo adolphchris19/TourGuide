@@ -1,16 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent">
+    android:fillViewport="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home"
-        android:textSize="30sp"
-        android:textAllCaps="true"
-        android:layout_centerInParent="true"/>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/lagosMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lagosmap"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/overview"
+            android:layout_below="@id/lagosMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:text="@string/overview"/>
+
+        <TextView
+            android:layout_below="@id/overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lagos"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:id="@+id/lagos"/>
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:id="@+id/lagosLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lagosLocation"
+            android:textSize="20sp"
+            android:layout_below="@id/lagos"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/lagosOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/lagosLocation"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/lagosOne" />
+
+        <TextView
+            android:id="@+id/lagosTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lagosOne"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/lagosTwo" />
+        <View
+            android:layout_marginTop="8dp"
+            android:id="@+id/line"
+            android:elevation="2dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_below="@id/lagosTwo"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d3d3d3"/>
+
+        <TextView
+            android:id="@+id/visit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/line"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/visitTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/visit"
+            android:text="@string/visitTwo"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/visitTwo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/explore"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/landOfLagos"
+            android:layout_centerHorizontal="true"
+            android:text="@string/landOfLagos"
+            android:textSize="15sp"
+            android:layout_below="@id/image"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

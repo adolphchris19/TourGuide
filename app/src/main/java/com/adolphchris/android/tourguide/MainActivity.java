@@ -9,6 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+    /**
+     *Created By Adolph Chris... Udacity Project. 12/09/2018
+     * */
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new HomeFragment()).commit();
-
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navClickListener

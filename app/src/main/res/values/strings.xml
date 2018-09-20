@@ -7,6 +7,50 @@
     <string name="malls">Malls</string>
     <string name="hospitals">Hospitals</string>
 
+    <string name="lagos">Lagos</string>
+    <string name="lagosLocation">City In Nigeria</string>
+    <string name="overview"> Area: 1,171 km² \n Elevation: 41 m \n
+
+Weather: 29°C \n Wind SW at 11 km/h \n 80% Humidity \n
+Area code: 010
+    </string>
+
+    <string name="landOfLagos">Lagos, Land of Opportunities</string>
+
+    <string name="lagosOne">
+        Lagos, Nigeria’s largest city, sprawls inland from the Gulf of Guinea across Lagos Lagoon. Victoria Island,
+        the financial center of the metropolis, is known for its beach resorts, boutiques and nightlife.
+        To the north, Lagos Island is home to the National Museum Lagos, displaying cultural artifacts and craftworks.
+        Nearby is Freedom Park, once a colonial-era prison and now a major venue for concerts and public events.
+    </string>
+
+    <string name="lagosTwo">
+        Beaches line the Lekki Peninsula running east from the city, while inland, the Lekki
+        Conservation Centre offers wildlife and trails. The National Gallery of Modern Art shares a building with the
+        National Arts Theatre, and showcases works by Nigerian artists. Local arts and crafts can be found at colorful
+        Lekki Market, and at private galleries across the city. North of the center, the life of Lagos musician Fela Kuti is
+        celebrated at the Kalakuta Museum. To the west, the town of Badagry contains
+        sites and museums documenting the town's history as a slave port, including the Badagry Heritage Museum
+    </string>
+
+    <string name="lagosThree">
+
+    </string>
+
+    <string name="visit">When To Visit</string>
+
+    <string name="visitTwo">
+        Many travelers arrive November–March, which is the warmest, driest part of the year, and is the best time to
+        visit the beach. Rainy season is March–October, with precipitation peaking June–July. Popular events that draw crowds
+        include Carnival (Easter); the Lagos Black Heritage Festival (Apr), with art exhibits and performances in dance,
+        drama, and music; the Afrobeat music event Felabration (October),
+        honoring the genre's founder; and the Eyo Festival (dates vary), featuring parades of masquerading dancers
+    </string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello world</string>
+    <string name="rating">Rating : </string>
+    <string name="rating_number">4.5</string>
+
 </resources>
