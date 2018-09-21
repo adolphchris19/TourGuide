@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class ListViewAdapter  extends ArrayAdapter<ListData> {
 
-    public ListViewAdapter(Context context, ArrayList<ListData> users) {
+    public ListViewAdapter(Context context, int list_template, ArrayList<ListData> users) {
         super(context, 0, users);
     }
 

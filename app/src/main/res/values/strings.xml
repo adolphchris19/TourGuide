@@ -52,5 +52,7 @@ Area code: 010
     <string name="hello_blank_fragment">Hello world</string>
     <string name="rating">Rating : </string>
     <string name="rating_number">4.5</string>
-
+    <string name="hotel_name">Alhaja Mimiko</string>
+    <string name="hotel_desc">I am so hay to be here honestly, and it means a lot to me.</string>
+    <string name="rate">8</string>
 </resources>
