@@ -55,4 +55,89 @@ Area code: 010
     <string name="hotel_name">Alhaja Mimiko</string>
     <string name="hotel_desc">I am so hay to be here honestly, and it means a lot to me.</string>
     <string name="rate">8</string>
+    
+    
+    
+    
+    <!--Places strings.-->
+    <string name="national_museum">Nigerian National Museum</string>
+    <string name="national_museum_desc">Prominent display of Nigerian Artifacts</string>
+
+    <string name="freedom_park">Freedom Park</string>
+    <string name="freedom_park_desc">Park and Vacation</string>
+
+    <string name="tarkwa_beach">Tarkwa Bay Beach</string>
+    <string name="tarkwa_beach_desc">Beach and Surfing</string>
+
+    <string name="jhalobia_park">Jhalobia Recreational Park</string>
+    <string name="jhalobia_park_desc">Park  and Garden</string>
+
+    <string name="dreamworld">Dreamworld Africana</string>
+    <string name="dreamworld_desc">Amusement Park and Park</string>
+
+    <string name="hi_impact_planet">Hi-Impact Planet</string>
+    <string name="hi_impact_planet_desc">Entertainment center with Rides and Dinning</string>
+
+    <string name="fun_factory">Fun Factory</string>
+    <string name="fun_factory_desc">Bouncy Castle, Rides and Sport Facilities </string>
+
+    <string name="musical_society">Musical Society of Nigeria</string>
+    <string name="musical_society_desc">Concert, Theater, Music</string>
+
+    <string name="tafawa_square">Tafawa Balewa Square</string>
+    <string name="tafawa_square_desc">National Park</string>
+
+    <string name="eko_atlantic">Eko Atlantic City</string>
+    <string name="eko_atlantic_desc">A city on water. Eko Atlantic is the new Paris.</string>
+    
+    <!-- Hotels Strings-->
+    <string name="hotel_ibis">Hotel Ibis Lagos Airport</string>
+    <string name="hotel_ibis_desc">Minimalist Room, an outdoor pool, restaurant and sleek bar</string>
+
+    <string name="eko_hotel">Eko Hotel and Suites</string>
+    <string name="eko_hotel_desc">Relaxed rooms, Pool, free wifi, bar plus a Spa</string>
+
+    <string name="beni_gold">Beni Gold Hotel</string>
+    <string name="beni_gold_desc">Warmly decorated rooms, Pool and Gym</string>
+
+    <string name="westown">Westown Hotel Ikeja</string>
+    <string name="westown_desc">Free breakfast, rooftop pool and a City view</string>
+
+    <string name="bogobiri_house">Bogobiri House Ikoyi Lagos</string>
+    <string name="bogobiri_house_desc">Restaurants, Bars, Artistic rooms, Art Gallery</string>
+
+    <string name="knightsbridge">Knightsbridge Hotel Ikeja</string>
+    <string name="knightsbridge_desc">Free breakfast, lounge, casual bar </string>
+
+    <string name="beni">Beni Hotels</string>
+    <string name="beni_desc">Free wi-fi, restaurant, pool, gym.</string>
+
+    <!--Malls Strings-->
+    <string name="maryland">Maryland Mall, Anthony Lagos</string>
+    <string name="palms">Palms Shopping Mall</string>
+    <string name="lagos_city_mall">Lagos City Mall</string>
+    <string name="ikeja_mall">Ikeja City Mall</string>
+    <string name="greenville">GreenVille Mall</string>
+    <string name="park_n_shop">Park N Shop</string>
+    <string name="entourage">Entourage Mall</string>
+    
+    
+    
+    
+    
+
+
+
+
 </resources>
+
+
+
+
+
+
+
+
+
+
+

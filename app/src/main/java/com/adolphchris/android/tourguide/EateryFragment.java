@@ -7,11 +7,44 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class EateryFragment extends Fragment {
+
+    public EateryFragment(){
+
+    }
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_eatery, container, false);
+        View view = inflater.inflate(R.layout.fragment_eatery, container, false);
+
+        final ArrayList<ListData> listData = new ArrayList<>();
+
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+        listData.add(new ListData(R.drawable.lagosmap, getContext().getString(R.string.hotel_name), getContext().getString(R.string.hotel_desc), getContext().getString(R.string.rating), getContext().getString(R.string.rate)));
+
+
+
+        ListViewAdapter adapter = new ListViewAdapter(getActivity(), R.layout.list_template, listData);
+
+        ListView listView = (ListView) view.findViewById(R.id.eatery_List);
+
+        listView.setAdapter(adapter);
+
+
+        return view;
     }
+
+
 }
